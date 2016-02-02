@@ -1,0 +1,1 @@
+/opt/gcc/gcc-5.1.0/bin/g++  -std=c++0x -O3  -Wall  -I /home/apankov/lib64/gzstream/ -L /home/apankov/lib64/gzstream/  -D__ZLIB_AVAILABLE__ -D_FILE_OFFSET_BITS=64 -D__STDC_LIMIT_MACROS  -o rate_calc_se main.cpp   -lz -lm -lgzstream
